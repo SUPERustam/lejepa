@@ -1,0 +1,877 @@
+{
+  "Original data": {
+    "test": "Henze-Zirkler",
+    "pingouin_version": "0.5.5",
+    "alpha": 0.05,
+    "results": [
+      {
+        "dimensions": "all",
+        "hz": 400.0,
+        "pval": 0.0,
+        "pingouin_normal": false,
+        "rank": 99,
+        "rank_deficient": true
+      },
+      {
+        "dimensions": [
+          1,
+          2
+        ],
+        "hz": 3.0028303969032386,
+        "pval": 4.60961984084399e-07,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          3,
+          4
+        ],
+        "hz": 0.5745893283142206,
+        "pval": 0.43904070687202396,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          5,
+          6
+        ],
+        "hz": 0.48730037168987494,
+        "pval": 0.625637515677965,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          150,
+          151
+        ],
+        "hz": 0.38700907458373013,
+        "pval": 0.8371490011087271,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          295,
+          296
+        ],
+        "hz": 0.4657480699629679,
+        "pval": 0.6737791634487195,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          441,
+          442
+        ],
+        "hz": 0.7297614453529555,
+        "pval": 0.20025847172106048,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          586,
+          587
+        ],
+        "hz": 0.42066197822528684,
+        "pval": 0.7712859888949679,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          732,
+          733
+        ],
+        "hz": 0.6248797533182526,
+        "pval": 0.34656080148925317,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          877,
+          878
+        ],
+        "hz": 0.615954539086791,
+        "pval": 0.3619457063271,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          1023,
+          1024
+        ],
+        "hz": 0.7469796321140781,
+        "pval": 0.18200692755119324,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      }
+    ]
+  },
+  "VCReg": {
+    "test": "Henze-Zirkler",
+    "pingouin_version": "0.5.5",
+    "alpha": 0.05,
+    "results": [
+      {
+        "dimensions": "all",
+        "hz": 400.0,
+        "pval": 0.0,
+        "pingouin_normal": false,
+        "rank": 99,
+        "rank_deficient": true
+      },
+      {
+        "dimensions": [
+          1,
+          2
+        ],
+        "hz": 0.9354756125134839,
+        "pval": 0.060013413816734286,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          3,
+          4
+        ],
+        "hz": 0.3677155075618027,
+        "pval": 0.8707260249376167,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          5,
+          6
+        ],
+        "hz": 1.1743968810061651,
+        "pval": 0.013601683308536424,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          150,
+          151
+        ],
+        "hz": 0.5952015771732738,
+        "pval": 0.39946625333944785,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          295,
+          296
+        ],
+        "hz": 0.4965499868340578,
+        "pval": 0.6049811666913608,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          441,
+          442
+        ],
+        "hz": 0.5852409384402929,
+        "pval": 0.418313667385491,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          586,
+          587
+        ],
+        "hz": 0.43303317787149465,
+        "pval": 0.7452955460450716,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          732,
+          733
+        ],
+        "hz": 1.3044451397719203,
+        "pval": 0.006027583168933619,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          877,
+          878
+        ],
+        "hz": 0.5377515523493998,
+        "pval": 0.5147936252826041,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          1023,
+          1024
+        ],
+        "hz": 0.4314530291155333,
+        "pval": 0.748656642106651,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      }
+    ]
+  },
+  "ExtendedJarqueBera": {
+    "test": "Henze-Zirkler",
+    "pingouin_version": "0.5.5",
+    "alpha": 0.05,
+    "results": [
+      {
+        "dimensions": "all",
+        "hz": 400.0,
+        "pval": 0.0,
+        "pingouin_normal": false,
+        "rank": 99,
+        "rank_deficient": true
+      },
+      {
+        "dimensions": [
+          1,
+          2
+        ],
+        "hz": 1.1443494011395272,
+        "pval": 0.01641842732537964,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          3,
+          4
+        ],
+        "hz": 1.039662606180816,
+        "pval": 0.031566926005664825,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          5,
+          6
+        ],
+        "hz": 1.999012277029627,
+        "pval": 9.282628542073682e-05,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          150,
+          151
+        ],
+        "hz": 0.671492527222034,
+        "pval": 0.2737674085240941,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          295,
+          296
+        ],
+        "hz": 0.7949842932006596,
+        "pval": 0.13856056269030864,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          441,
+          442
+        ],
+        "hz": 1.086951299549796,
+        "pval": 0.023509558379058774,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          586,
+          587
+        ],
+        "hz": 2.5962142709989338,
+        "pval": 3.572877303937437e-06,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          732,
+          733
+        ],
+        "hz": 0.4429073681640916,
+        "pval": 0.7240576821456814,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          877,
+          878
+        ],
+        "hz": 0.7069120898989034,
+        "pval": 0.22685580575463576,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          1023,
+          1024
+        ],
+        "hz": 1.3555961808365935,
+        "pval": 0.004382237487327085,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      }
+    ]
+  },
+  "CramerVonMises": {
+    "test": "Henze-Zirkler",
+    "pingouin_version": "0.5.5",
+    "alpha": 0.05,
+    "results": [
+      {
+        "dimensions": "all",
+        "hz": 400.0,
+        "pval": 0.0,
+        "pingouin_normal": false,
+        "rank": 99,
+        "rank_deficient": true
+      },
+      {
+        "dimensions": [
+          1,
+          2
+        ],
+        "hz": 0.6705508448015485,
+        "pval": 0.27511228950018685,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          3,
+          4
+        ],
+        "hz": 0.6337938351679756,
+        "pval": 0.3316560704711621,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          5,
+          6
+        ],
+        "hz": 0.7872004209596384,
+        "pval": 0.14490898426403737,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          150,
+          151
+        ],
+        "hz": 0.6856367912837585,
+        "pval": 0.25418194971790864,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          295,
+          296
+        ],
+        "hz": 0.6127999572722698,
+        "pval": 0.3674928492428018,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          441,
+          442
+        ],
+        "hz": 1.0443438341962152,
+        "pval": 0.030661206219104,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          586,
+          587
+        ],
+        "hz": 1.2388350004349735,
+        "pval": 0.00908443294422384,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          732,
+          733
+        ],
+        "hz": 0.5217410710317005,
+        "pval": 0.5493373128817629,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          877,
+          878
+        ],
+        "hz": 0.3484729600966491,
+        "pval": 0.9004913537590746,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          1023,
+          1024
+        ],
+        "hz": 0.5040275505919206,
+        "pval": 0.5883451606755412,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      }
+    ]
+  },
+  "Watson": {
+    "test": "Henze-Zirkler",
+    "pingouin_version": "0.5.5",
+    "alpha": 0.05,
+    "results": [
+      {
+        "dimensions": "all",
+        "hz": 400.0,
+        "pval": 0.0,
+        "pingouin_normal": false,
+        "rank": 99,
+        "rank_deficient": true
+      },
+      {
+        "dimensions": [
+          1,
+          2
+        ],
+        "hz": 0.781099680739894,
+        "pval": 0.15006527921225515,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          3,
+          4
+        ],
+        "hz": 0.5465232310194107,
+        "pval": 0.4962392818640019,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          5,
+          6
+        ],
+        "hz": 0.6394164080307019,
+        "pval": 0.32249362026200984,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          150,
+          151
+        ],
+        "hz": 0.5174682366496264,
+        "pval": 0.5586821981745994,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          295,
+          296
+        ],
+        "hz": 0.524357002921727,
+        "pval": 0.5436401002564786,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          441,
+          442
+        ],
+        "hz": 0.34248189044543964,
+        "pval": 0.9089330831917499,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          586,
+          587
+        ],
+        "hz": 0.7922410260634644,
+        "pval": 0.1407688687255561,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          732,
+          733
+        ],
+        "hz": 0.6253320095589043,
+        "pval": 0.3457934748568913,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          877,
+          878
+        ],
+        "hz": 0.5714793388228362,
+        "pval": 0.44519977617902523,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          1023,
+          1024
+        ],
+        "hz": 0.5320608175046648,
+        "pval": 0.5269786253415137,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      }
+    ]
+  },
+  "AndersonDarling": {
+    "test": "Henze-Zirkler",
+    "pingouin_version": "0.5.5",
+    "alpha": 0.05,
+    "results": [
+      {
+        "dimensions": "all",
+        "hz": 400.0,
+        "pval": 0.0,
+        "pingouin_normal": false,
+        "rank": 99,
+        "rank_deficient": true
+      },
+      {
+        "dimensions": [
+          1,
+          2
+        ],
+        "hz": 0.5546349559786584,
+        "pval": 0.47935008601500684,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          3,
+          4
+        ],
+        "hz": 0.5476939924322077,
+        "pval": 0.49378511639298356,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          5,
+          6
+        ],
+        "hz": 0.3637921041648118,
+        "pval": 0.8771118563656553,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          150,
+          151
+        ],
+        "hz": 0.5360158024195039,
+        "pval": 0.518498477984574,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          295,
+          296
+        ],
+        "hz": 0.6977463691130392,
+        "pval": 0.23831867034056464,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          441,
+          442
+        ],
+        "hz": 0.5545215809354631,
+        "pval": 0.47958425120987913,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          586,
+          587
+        ],
+        "hz": 0.5177065918516077,
+        "pval": 0.5581596887433233,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          732,
+          733
+        ],
+        "hz": 0.7064479879095836,
+        "pval": 0.22742510764534501,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          877,
+          878
+        ],
+        "hz": 0.8124228339874751,
+        "pval": 0.12523840766808875,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          1023,
+          1024
+        ],
+        "hz": 0.5245491161355448,
+        "pval": 0.5432224524113065,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      }
+    ]
+  },
+  "EppsPulley": {
+    "test": "Henze-Zirkler",
+    "pingouin_version": "0.5.5",
+    "alpha": 0.05,
+    "results": [
+      {
+        "dimensions": "all",
+        "hz": 400.0,
+        "pval": 0.0,
+        "pingouin_normal": false,
+        "rank": 99,
+        "rank_deficient": true
+      },
+      {
+        "dimensions": [
+          1,
+          2
+        ],
+        "hz": 0.5166154002278683,
+        "pval": 0.5605528691677798,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          3,
+          4
+        ],
+        "hz": 0.8513904974163655,
+        "pval": 0.09959122950406507,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          5,
+          6
+        ],
+        "hz": 0.3110413989635269,
+        "pval": 0.9464158645880015,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          150,
+          151
+        ],
+        "hz": 1.1129032445246767,
+        "pval": 0.01998959541107428,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          295,
+          296
+        ],
+        "hz": 0.5956233114443654,
+        "pval": 0.39868000174803697,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          441,
+          442
+        ],
+        "hz": 0.5421653062453846,
+        "pval": 0.5054213671803355,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          586,
+          587
+        ],
+        "hz": 0.3724446888053734,
+        "pval": 0.8628229909981724,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          732,
+          733
+        ],
+        "hz": 0.9942893395844643,
+        "pval": 0.041818972334469816,
+        "pingouin_normal": false,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          877,
+          878
+        ],
+        "hz": 0.41624382280524286,
+        "pval": 0.7803700946314771,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      },
+      {
+        "dimensions": [
+          1023,
+          1024
+        ],
+        "hz": 0.39918071188219106,
+        "pval": 0.8142805444031775,
+        "pingouin_normal": true,
+        "rank": 2,
+        "rank_deficient": false
+      }
+    ]
+  }
+}
