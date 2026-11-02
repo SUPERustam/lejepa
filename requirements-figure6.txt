@@ -1,0 +1,6 @@
+# Versions validated on Apple M2 in menv. Optional isolated uv environment.
+torch==2.4.1
+numpy==1.26.4
+matplotlib==3.10.3
+loguru==0.7.3
+hydra-core
