@@ -1,0 +1,44 @@
+# Defaults from optimizer_experiment.py.
+n: 100
+dim: 1024
+num_slices: 10
+tuning_seed: 0
+steps: 1520
+seeds: [0]
+objectives: [VISReg, SIGReg, Projected moments]
+optimizers: [Adam, AdamW, SGD]
+rates:
+  Adam: [0.1]
+  AdamW: [0.1]
+  SGD: [0.1]
+torch_num_threads: 1
+weight_decay: {Adam: 0, AdamW: 0.01, SGD: 0}
+SGD_momentum: 0
+selection_directions: 256
+selection_metric: native objective on fixed evaluation directions
+selection_seed: 10000
+evaluation_directions: 1024
+evaluation_seed: 20000
+dtype: float32
+device: mps
+
+# Derived metadata resolves from the config and the installed libraries.
+evaluation_seeds: ${seeds}
+evaluation_includes_tuning_seed: ${contains:${seeds},${tuning_seed}}
+environment: ${hydra:job.env_set}
+torch: ${experiment_version:torch}
+numpy: ${experiment_version:numpy}
+pingouin: ${experiment_version:pingouin}
+python: ${experiment_version:python}
+
+hydra:
+  run:
+    dir: output/${hydra:job.config_name}/${now:%Y-%m-%d_%H-%M-%S-%f}
+  sweep:
+    dir: output/${hydra:job.config_name}/multirun/${now:%Y-%m-%d_%H-%M-%S-%f}
+    subdir: ${hydra.job.num}
+  job:
+    chdir: false
+    env_set:
+      OMP_NUM_THREADS: "6"
+      OPENBLAS_NUM_THREADS: "6"
